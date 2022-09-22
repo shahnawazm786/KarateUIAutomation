@@ -31,4 +31,5 @@ Feature: Browser function
     When click("input[id='login-button']")
     Then match driver.title == "Swag Labs"
     And match driver.url == 'https://www.saucedemo.com/inventory.html'
+    And print dimen
     
