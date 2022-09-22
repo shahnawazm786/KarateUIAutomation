@@ -1,0 +1,81 @@
+{
+   "checksum": "1d53c99ffa7d5d011b421bbec1dbd1fc",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13308296854228232",
+            "guid": "994b5e2a-57a2-433f-87f3-9dedc373614a",
+            "id": "9",
+            "name": "Amazon.co.uk - Online Shopping",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "http://www.amazon.com/gp/ubp/oneButton/config/redirectHome?tagbase=hpbk-ubpl&ref=aagateway-edgebook-hp"
+         }, {
+            "date_added": "13308296854228128",
+            "guid": "8168a5f8-7b93-47d3-8717-4589841b4615",
+            "id": "8",
+            "name": "Agoda",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://www.agoda.com/?cid=1649895&tag=NW22C1EF"
+         }, {
+            "date_added": "13308296854228019",
+            "guid": "204a5f4e-53b8-4fb7-85eb-a112a0a7d7b6",
+            "id": "7",
+            "name": "Express VPN",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://js.redirect.hp.com/jumpstation?bd=expressvpn&c=*&locale=en_us&pf=*&s=*&tp=edge"
+         }, {
+            "date_added": "13308296854227882",
+            "guid": "9f59ee48-673d-4139-962e-a5cdf917d4d3",
+            "id": "6",
+            "name": "McAfee Security",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://www.mcafee.com/consumer/v/browserfav/hp.html"
+         }, {
+            "date_added": "13308296854226951",
+            "guid": "4a87533c-e9cc-4c70-bff1-e9122cd88d0e",
+            "id": "5",
+            "name": "LastPass password manager",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://js.redirect.hp.com/jumpstation?bd=lastpass&c=*&locale=*&pf=*&s=*&tp=edge"
+         } ],
+         "date_added": "13308296854055478",
+         "date_modified": "13308296854228232",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Favorites bar",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13308296854055481",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other favorites",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13308296854055482",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile favorites",
+         "source": "unknown",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}
