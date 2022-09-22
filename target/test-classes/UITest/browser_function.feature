@@ -5,3 +5,4 @@ Scenario: Login with valid credential using msedge brower
     And input("input[id='password']","secret_sauce")
     When click("input[id='login-button']")
     Then match driver.title == "Swag Labs"
+    And match driver.url == 'https://www.saucedemo.com/inventory.html'
