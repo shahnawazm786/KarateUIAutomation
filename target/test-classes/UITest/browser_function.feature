@@ -1,4 +1,6 @@
-Scenario: Login with valid credential using msedge brower
+Feature: Browser function
+
+  Scenario: Login with valid credential using msedge brower
     * configure driver = { type: 'msedge' }
     Given driver 'https://www.saucedemo.com/'
     And input("input[id='user-name']","standard_user")
