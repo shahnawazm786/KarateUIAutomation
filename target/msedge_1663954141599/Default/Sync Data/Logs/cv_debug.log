@@ -1,0 +1,4 @@
+{"logTime": "0923/172904", "correlationVector":"feSdA2/2A4p79lF2XA649S.0","action":"FeedSettingFetch_homeCloud", "result":"0", "context":{}}
+{"logTime": "0923/172904", "correlationVector":"youocIEDv6COeYjGWWGfPQ.1","action":"SyncServerConnectionManagerRequest", "result":"SYNC_SERVER_OK", "context":{"environment":"Prod_SoutheastAsia", "server":"GENERAL01000013"}}
+{"logTime": "0923/172904", "correlationVector":"youocIEDv6COeYjGWWGfPQ","action":"Initial GetUpdates", "result":"", "context":Reason: NEW_CLIENT. cV=youocIEDv6COeYjGWWGfPQ}
+{"logTime": "0923/172904", "correlationVector":"youocIEDv6COeYjGWWGfPQ.2","action":"GetUpdates Response", "result":"SYNCER_OK", "context":Received 1 update(s). cV=youocIEDv6COeYjGWWGfPQ.0;server=GENERAL01000013;cloudType=Consumer;environment=Prod_SoutheastAsia}

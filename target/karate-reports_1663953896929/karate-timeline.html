@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+      .page-heading { padding: 0.5em; margin-bottom: 0.5em; background-color: lightcyan; border: 1px solid gray; }
+    </style>
+    <script src="res/vis.min.js"></script>
+    <link href="res/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="page-heading">
+      <a href="karate-summary.html">Summary</a>
+    </div>     
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"main","id":1}];
+var items = [{"id":1,"group":1,"content":"src\/test\/java\/UITest\/browser_function[1:3]","start":1663823707124,"end":1663823710093,"title":"src\/test\/java\/UITest\/browser_function[1:3] 10:45:07.124-10:45:10.093 Browser function driver.url match"},{"id":2,"group":1,"content":"src\/test\/java\/UITest\/browser_function[2:13]","start":1663823710135,"end":1663823712000,"title":"src\/test\/java\/UITest\/browser_function[2:13] 10:45:10.135-10:45:12.000 Browser function driver.deminesions for particular height and weight"},{"id":3,"group":1,"content":"src\/test\/java\/UITest\/browser_function[3:24]","start":1663823712020,"end":1663823713766,"title":"src\/test\/java\/UITest\/browser_function[3:24] 10:45:12.020-10:45:13.766 Browser function driver.deminesion for particular height and weight"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>
