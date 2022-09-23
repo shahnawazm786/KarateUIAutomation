@@ -12,4 +12,5 @@ Feature: Browser function
     * delay(2000)
     * driver.reload()
     * delay(2000)
-    
+    * driver.refresh()
+    * delay(2000)
