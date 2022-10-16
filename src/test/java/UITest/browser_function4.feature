@@ -19,8 +19,8 @@ Scenario: Browser function scroll to the element using mouse move and click on e
     #* mouse().move(1500,500).go()
     # mouse(0,1500).go()
     #And mouse("(//a[text()='Appium'])[1]").go().click()
-    * mouse(200,100).go()
-    * mouse('(//a[text()="Karate UI"])[1]').click()
+    
+    * mouse().move(5000,5000).go()
     * delay(10000)
     
      
