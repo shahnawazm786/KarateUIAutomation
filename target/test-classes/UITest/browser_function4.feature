@@ -15,7 +15,7 @@ Scenario: Browser function scroll to the element using mouse move and click on e
     * delay(2000)
     * driver.fullscreen()
     * driver.maximize()
-    And mouse().move("(//code[text()='android'])[2]").click()
+    * mouse().move("(//code[text()='android'])[2]").click()
     * delay(5000)
     
      
