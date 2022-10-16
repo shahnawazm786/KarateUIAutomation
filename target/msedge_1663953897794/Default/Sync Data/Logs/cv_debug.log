@@ -1,8 +1,0 @@
-{"logTime": "0923/172501", "correlationVector":"F798LRluK1s67kuMypf8bS.0","action":"FeedSettingFetch_homeCloud", "result":"0", "context":{}}
-{"logTime": "0923/172501", "correlationVector":"Pf5kQERk9PDJmtevF22Uoc.1","action":"SyncServerConnectionManagerRequest", "result":"SYNC_SERVER_OK", "context":{"environment":"Prod_SoutheastAsia", "server":"GENERAL0100001K"}}
-{"logTime": "0923/172501", "correlationVector":"Pf5kQERk9PDJmtevF22Uoc","action":"Initial GetUpdates", "result":"", "context":Reason: NEW_CLIENT. cV=Pf5kQERk9PDJmtevF22Uoc}
-{"logTime": "0923/172501", "correlationVector":"Pf5kQERk9PDJmtevF22Uoc.2","action":"GetUpdates Response", "result":"SYNCER_OK", "context":Received 1 update(s). cV=Pf5kQERk9PDJmtevF22Uoc.0;server=GENERAL0100001K;cloudType=Consumer;environment=Prod_SoutheastAsia}
-{"logTime": "0923/172512", "correlationVector":"NVf9aykJzEIf/SLTvna2IK","action":"SyncServerConnectionManagerRequest", "result":"SYNC_SERVER_OK", "context":{"environment":"", "server":""}}
-{"logTime": "0923/172512", "correlationVector":"R5k2W8NdNeIGC4Dr1t7KCR","action":"Initial GetUpdates", "result":"", "context":Reason: NEW_CLIENT. cV=R5k2W8NdNeIGC4Dr1t7KCR}
-{"logTime": "0923/172514", "correlationVector":"R5k2W8NdNeIGC4Dr1t7KCR.0","action":"SyncServerConnectionManagerRequest", "result":"SYNC_SERVER_ERROR", "context":{"environment":"", "error_type":"http_status_code", "error_value":"503", "server":""}}
-{"logTime": "0923/172514", "correlationVector":"R5k2W8NdNeIGC4Dr1t7KCR.1","action":"GetUpdates Response", "result":"SYNC_SERVER_ERROR (HTTP 503)", "context":Received 0 update(s).  Some updates remain. }
