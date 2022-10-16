@@ -5,5 +5,6 @@ Scenario: Browser function scroll to the element
     Given driver 'https://karatelabs.github.io/karate/karate-core/'
     * delay(2000)
     * driver.fullscreen()
+    * driver.maximize()
     And scroll("//h1[@id='proxy']")
     * delay(5000)
