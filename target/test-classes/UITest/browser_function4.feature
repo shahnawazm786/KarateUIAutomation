@@ -10,12 +10,12 @@ Scenario: Browser function scroll to the element
     * delay(5000)
     
 Scenario: Browser function scroll to the element using mouse move and click on element
-    * configure driver = { type: 'msedge' }
+    * configure driver = { type: 'chrome' }
     Given driver 'https://karatelabs.github.io/karate/karate-core/'
     * delay(2000)
     * driver.fullscreen()
     * driver.maximize()
-    And scroll("//h1[@id='proxy']")
+    And mouse().move("(//code[text()='android'])[2]").click()
     * delay(5000)
     
      
