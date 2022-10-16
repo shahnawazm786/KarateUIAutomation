@@ -1,0 +1,89 @@
+{
+   "checksum": "1d53c99ffa7d5d011b421bbec1dbd1fc",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13310382401086300",
+            "date_last_used": "0",
+            "guid": "52494c7f-eee3-4379-a180-9e4045531a80",
+            "id": "9",
+            "name": "Amazon.co.uk - Online Shopping",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "http://www.amazon.com/gp/ubp/oneButton/config/redirectHome?tagbase=hpbk-ubpl&ref=aagateway-edgebook-hp"
+         }, {
+            "date_added": "13310382401086085",
+            "date_last_used": "0",
+            "guid": "2ac1c889-c267-4d76-902f-e86024313d6f",
+            "id": "8",
+            "name": "Agoda",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://www.agoda.com/?cid=1649895&tag=NW22C1EF"
+         }, {
+            "date_added": "13310382401085789",
+            "date_last_used": "0",
+            "guid": "2985d64d-514e-4a90-922b-bdc711d788ad",
+            "id": "7",
+            "name": "Express VPN",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://js.redirect.hp.com/jumpstation?bd=expressvpn&c=*&locale=en_us&pf=*&s=*&tp=edge"
+         }, {
+            "date_added": "13310382401085385",
+            "date_last_used": "0",
+            "guid": "b561395a-6708-4166-94f0-c7372809a1d3",
+            "id": "6",
+            "name": "McAfee Security",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://www.mcafee.com/consumer/v/browserfav/hp.html"
+         }, {
+            "date_added": "13310382401083920",
+            "date_last_used": "0",
+            "guid": "9ade199b-655a-471f-ac80-a717c51810f3",
+            "id": "5",
+            "name": "LastPass password manager",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://js.redirect.hp.com/jumpstation?bd=lastpass&c=*&locale=*&pf=*&s=*&tp=edge"
+         } ],
+         "date_added": "13310382400322922",
+         "date_last_used": "0",
+         "date_modified": "13310382401086300",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Favorites bar",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13310382400322924",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other favorites",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13310382400322924",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile favorites",
+         "source": "unknown",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}
